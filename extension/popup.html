@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Getting Started Extension's Popup</title>
+        
+    <style>
+
+        body {    
+            margin: 0;
+            font-family: Helvetica;
+            font-size: 14px;
+        }
+    
+    </style>
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+     -->
+
+</head>
+
+<body>
+
+    <div style="width: 300px;">
+        Convert my units from:<br>
+        <br>
+        <input type="radio" name="units" value="imperial" checked="yes">kgs to lbs<br>
+        <input type="radio" name="units" value="metric">lbs to kgs<br>
+
+        
+        <div style="background-color: #EAEAEA; text-align: center; padding: 10px;">
+            <button id="option_button">
+                Options
+            </button>
+        </div>
+
+    </div>
+
+    <script src="popup.js"></script>
+
+</body>
+
+</html>
+

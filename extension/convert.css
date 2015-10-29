@@ -1,0 +1,22 @@
+.metric_to_imperial {
+}
+
+.metric_to_imperial_orig {
+    display: inline;
+    opacity: 1.0;
+}
+
+.metric_to_imperial_converted {
+    display: inline;
+}
+
+.metric_to_imperial_converted.highlight { background-color: yellow; }
+.metric_to_imperial_converted.underline { text-decoration: underline; }
+.metric_to_imperial_converted.bold { font-weight: 700; }
+
+
+.metric_to_imperial_ht {
+    cursor: pointer;
+    text-decoration: underline;
+
+}
